@@ -32,7 +32,8 @@ terraform {
     region = "us-east-1"
   }
 
-  required_version = "~> 1.6.3"
+#  required_version = "~> 1.6.3" # This configuration does not support Terraform version 1.8.2.
+  required_version = "~> 1.8.2"
 }
 ##
 ##
